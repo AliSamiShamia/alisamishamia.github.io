@@ -1,0 +1,21 @@
+{
+  "name": "Ali Shamia — Full Stack Developer Dubai",
+  "short_name": "Ali Shamia",
+  "description": "Full Stack Developer based in Dubai with 10+ years experience in web apps, mobile, and AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1120",
+  "theme_color": "#0B1120",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
