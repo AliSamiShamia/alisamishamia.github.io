@@ -1,878 +1,921 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ali Shamia — Full Stack Developer</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
 
+    <!-- ══ PRIMARY SEO ══════════════════════════════════════════ -->
+    <title>Ali Shamia — Full Stack Developer Dubai | Web, Mobile & AI Solutions</title>
+    <meta name="description" content="Ali Shamia is a Full Stack Developer based in Dubai, UAE with 10+ years of experience building web applications, mobile apps, e-commerce platforms, and AI-powered tools for businesses across the Middle East and Europe.">
+    <meta name="keywords" content="full stack developer Dubai, web developer UAE, React developer Dubai, Laravel developer, NestJS developer, AI integration Dubai, mobile app developer UAE, e-commerce developer Dubai, hire developer Dubai, freelance developer UAE">
+    <meta name="author" content="Ali Shamia">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <link rel="canonical" href="https://alishamia.com/">
+
+    <!-- ══ OPEN GRAPH (Facebook, LinkedIn, WhatsApp previews) ═══ -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alishamia.com/">
+    <meta property="og:title" content="Ali Shamia — Full Stack Developer in Dubai">
+    <meta property="og:description" content="10+ years building web apps, mobile apps, and AI-powered tools. Based in Dubai, working globally. Available for new projects.">
+    <meta property="og:image" content="https://alishamia.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Ali Shamia — Full Stack Developer Dubai">
+    <meta property="og:site_name" content="Ali Shamia — Full Stack Developer">
+    <meta property="og:locale" content="en_US">
+
+    <!-- ══ TWITTER CARD ═════════════════════════════════════════ -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://alishamia.com/">
+    <meta name="twitter:title" content="Ali Shamia — Full Stack Developer in Dubai">
+    <meta name="twitter:description" content="10+ years building web apps, mobile apps, and AI-powered tools. Based in Dubai, working globally.">
+    <meta name="twitter:image" content="https://alishamia.com/og-image.jpg">
+    <meta name="twitter:image:alt" content="Ali Shamia — Full Stack Developer Dubai">
+
+    <!-- ══ GEO / LOCAL SEO ══════════════════════════════════════ -->
+    <meta name="geo.region" content="AE-DU">
+    <meta name="geo.placename" content="Dubai, United Arab Emirates">
+    <meta name="geo.position" content="25.2048;55.2708">
+    <meta name="ICBM" content="25.2048, 55.2708">
+
+    <!-- ══ STRUCTURED DATA — Person ════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ali Shamia",
+      "jobTitle": "Full Stack Developer",
+      "description": "Full Stack Developer with 10+ years of experience building web applications, mobile apps, and AI-powered tools for businesses across the Middle East and Europe.",
+      "url": "https://alishamia.com",
+      "email": "shamiaali7@gmail.com",
+      "telephone": "+971509130747",
+      "image": "https://alishamia.com/og-image.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/ali-shamia/",
+        "https://wa.me/971509130747"
+      ],
+      "knowsAbout": [
+        "React", "Angular", "NestJS", "Laravel", "Python",
+        "PostgreSQL", "MySQL", "Redis", "RabbitMQ",
+        "OpenAI API", "React Native", "Web Development",
+        "Mobile App Development", "AI Integration", "E-Commerce"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Al-Baath University",
+        "department": "Software Engineering"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "LG Electronics MEA"
+      }
+    }
+    </script>
+
+    <!-- ══ STRUCTURED DATA — Professional Service ═══════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Ali Shamia — Full Stack Development Services",
+      "description": "Custom web applications, mobile apps, e-commerce platforms, AI integration, and technical consulting for businesses in Dubai and globally.",
+      "url": "https://alishamia.com",
+      "telephone": "+971509130747",
+      "email": "shamiaali7@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "areaServed": ["AE", "SA", "EG", "BE", "NL", "Worldwide"],
+      "priceRange": "$$",
+      "serviceType": [
+        "Web Application Development",
+        "Mobile App Development",
+        "E-Commerce Development",
+        "AI Integration",
+        "Cloud Deployment",
+        "Technical Consulting"
+      ]
+    }
+    </script>
+
+    <!-- ══ STRUCTURED DATA — FAQ (boosts rich snippets in Google) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are you available for freelance projects in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, I am open to new opportunities — both freelance projects and full-time roles in Dubai, UAE, and remote work globally."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What technologies do you specialise in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I specialise in React, Angular, NestJS, Laravel, Python, PostgreSQL, Redis, RabbitMQ, OpenAI API integration, and React Native for mobile development."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you build AI-powered applications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I have integrated OpenAI GPT-4 into enterprise platforms, including semantic search and automated course generation for LG Electronics MEA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you build an e-commerce website in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I build full e-commerce solutions including product catalogues, secure payment gateways, order management, and custom CMS — for any scale of business."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work remotely or on-site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both. I am based in Dubai, UAE and available for on-site work locally as well as remote projects for clients worldwide."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- ══ PERFORMANCE: preconnect fonts ════════════════════════ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ══ FAVICON (replace with your actual files) ══════════════ -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#0B1120">
+</head>
 <body>
 
-    <!-- ══ LOADER ══════════════════════════════════════════ -->
-    <div id="loader">
-        <div class="loader-logo">ALI SHAMIA</div>
-        <div class="loader-sub">Full Stack Developer · Dubai, UAE</div>
-        <div class="loader-bar-wrap">
-            <div class="loader-bar"></div>
+<!-- ══ LOADER ══════════════════════════════════════════ -->
+<div id="loader">
+    <div class="loader-logo">ALI SHAMIA</div>
+    <div class="loader-sub">Full Stack Developer · Dubai, UAE</div>
+    <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+    <div class="loader-dots">
+        <div class="loader-dot"></div><div class="loader-dot"></div>
+        <div class="loader-dot"></div><div class="loader-dot"></div>
+        <div class="loader-dot"></div>
+    </div>
+</div>
+
+<div class="grid-bg"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ══ NAV ═════════════════════════════════════════════ -->
+<nav role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo">Ali Shamia</a>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#stack">Tech Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-mobile-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+</nav>
+
+<!-- ══ HERO ════════════════════════════════════════════ -->
+<main id="main-content">
+<section id="hero" aria-label="Introduction">
+    <div class="available-badge"><div class="pulse"></div>Open to new opportunities</div>
+    <div class="hero-label"><span>//</span>Full Stack Developer · Dubai, UAE</div>
+    <h1 class="hero-name">
+        <span class="solid">ALI</span>
+        <span class="grad-text">SHAMIA</span>
+    </h1>
+    <div class="hero-title">I turn your ideas into products people actually use</div>
+    <p class="hero-desc">
+        With 10+ years of experience, I build web platforms, mobile apps, and AI-powered tools that solve real
+        business problems — from first concept to live product. Based in Dubai, working globally.
+    </p>
+    <div class="hero-ctas">
+        <a href="#contact" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            Let's Talk
+        </a>
+        <a href="https://wa.me/971509130747" target="_blank" class="btn-wa">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+        </a>
+        <a href="#experience" class="btn-outline">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+            My Experience
+        </a>
+    </div>
+    <div class="hero-stats">
+        <div>
+            <div class="stat-num" data-target="10" data-suffix="+">0+</div>
+            <div class="stat-label">Years of Experience</div>
         </div>
-        <div class="loader-dots">
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
+        <div>
+            <div class="stat-num" data-target="30" data-suffix="+">0+</div>
+            <div class="stat-label">Projects Delivered</div>
+        </div>
+        <div>
+            <div class="stat-num" data-target="5" data-suffix="">0</div>
+            <div class="stat-label">Countries Served</div>
+        </div>
+        <div>
+            <div class="stat-num" data-target="100" data-suffix="%">0%</div>
+            <div class="stat-label">Client Satisfaction</div>
         </div>
     </div>
+</section>
 
-    <div class="grid-bg"></div>
-    <div class="cursor-glow" id="cursorGlow"></div>
+<!-- ══ MARQUEE ══════════════════════════════════════════ -->
+<div class="marquee-wrap">
+    <div class="marquee-track">
+        <span class="marquee-item">Web Applications</span>
+        <span class="marquee-item">Mobile Apps</span>
+        <span class="marquee-item">AI Integration</span>
+        <span class="marquee-item">E-Commerce</span>
+        <span class="marquee-item">Cloud Deployment</span>
+        <span class="marquee-item">API Development</span>
+        <span class="marquee-item">Systems Architecture</span>
+        <span class="marquee-item">Dubai · UAE</span>
+        <span class="marquee-item">Web Applications</span>
+        <span class="marquee-item">Mobile Apps</span>
+        <span class="marquee-item">AI Integration</span>
+        <span class="marquee-item">E-Commerce</span>
+        <span class="marquee-item">Cloud Deployment</span>
+        <span class="marquee-item">API Development</span>
+        <span class="marquee-item">Systems Architecture</span>
+        <span class="marquee-item">Dubai · UAE</span>
+    </div>
+</div>
 
-    <!-- ══ NAV ═════════════════════════════════════════════ -->
-    <nav>
-        <a href="#hero" class="nav-logo">Ali Shamia</a>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#stack">Tech Stack</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button class="nav-mobile-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
-    </nav>
-
-    <!-- ══ HERO ════════════════════════════════════════════ -->
-    <section id="hero">
-        <div class="available-badge">
-            <div class="pulse"></div>Open to new opportunities
-        </div>
-        <div class="hero-label"><span>//</span>Full Stack Developer · Dubai, UAE</div>
-        <h1 class="hero-name">
-            <span class="solid">ALI</span>
-            <span class="grad-text">SHAMIA</span>
-        </h1>
-        <div class="hero-title">I turn your ideas into products people actually use</div>
-        <p class="hero-desc">
-            With 10+ years of experience, I build web platforms, mobile apps, and AI-powered tools that solve real
-            business problems — from first concept to live product. Based in Dubai, working globally.
-        </p>
-        <div class="hero-ctas">
-            <a href="#contact" class="btn-primary">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
-                </svg>
-                Let's Talk
-            </a>
-            <a href="https://wa.me/971509130747" target="_blank" class="btn-wa">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                </svg>
-                WhatsApp
-            </a>
-            <a href="#experience" class="btn-outline">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="2" y="7" width="20" height="14" rx="2" />
-                    <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" />
-                </svg>
-                My Experience
-            </a>
-        </div>
-        <div class="hero-stats">
-            <div>
-                <div class="stat-num" data-target="10" data-suffix="+">0+</div>
-                <div class="stat-label">Years of Experience</div>
+<!-- ══ ABOUT ════════════════════════════════════════════ -->
+<section id="about" aria-label="About Ali Shamia">
+    <div class="about-visual reveal">
+        <div class="about-card">
+            <!-- SVG illustration — developer at work -->
+            <svg viewBox="0 0 400 320" width="100%" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:28px;display:block;opacity:0.9">
+                <!-- Monitor -->
+                <rect x="60" y="40" width="280" height="180" rx="8" fill="#0d1429" stroke="#1e2d45" stroke-width="1.5"/>
+                <rect x="60" y="40" width="280" height="12" rx="8" fill="#1e2d45"/>
+                <circle cx="80" cy="46" r="3" fill="#f87171" opacity=".8"/>
+                <circle cx="94" cy="46" r="3" fill="#fbbf24" opacity=".8"/>
+                <circle cx="108" cy="46" r="3" fill="#10b981" opacity=".8"/>
+                <!-- Code lines on screen -->
+                <rect x="80" y="70" width="60" height="6" rx="2" fill="#818cf8" opacity=".7"/>
+                <rect x="150" y="70" width="40" height="6" rx="2" fill="#fbbf24" opacity=".5"/>
+                <rect x="90" y="86" width="80" height="6" rx="2" fill="#94a3b8" opacity=".4"/>
+                <rect x="90" y="102" width="50" height="6" rx="2" fill="#10b981" opacity=".6"/>
+                <rect x="150" y="102" width="30" height="6" rx="2" fill="#fbbf24" opacity=".4"/>
+                <rect x="80" y="118" width="100" height="6" rx="2" fill="#94a3b8" opacity=".3"/>
+                <rect x="90" y="134" width="70" height="6" rx="2" fill="#818cf8" opacity=".5"/>
+                <rect x="170" y="134" width="20" height="6" rx="2" fill="#f87171" opacity=".5"/>
+                <rect x="80" y="150" width="90" height="6" rx="2" fill="#94a3b8" opacity=".35"/>
+                <rect x="80" y="166" width="40" height="6" rx="2" fill="#10b981" opacity=".5"/>
+                <rect x="130" y="166" width="60" height="6" rx="2" fill="#fbbf24" opacity=".3"/>
+                <!-- Cursor blink -->
+                <rect x="196" y="166" width="2" height="8" rx="1" fill="#3B82F6" opacity=".9">
+                    <animate attributeName="opacity" values="0.9;0;0.9" dur="1s" repeatCount="indefinite"/>
+                </rect>
+                <!-- Monitor stand -->
+                <rect x="180" y="220" width="40" height="16" rx="2" fill="#1e2d45"/>
+                <rect x="155" y="236" width="90" height="6" rx="2" fill="#1e2d45"/>
+                <!-- Floating badge - AI -->
+                <rect x="300" y="60" width="60" height="24" rx="4" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.4)" stroke-width="1"/>
+                <text x="330" y="76" font-family="JetBrains Mono" font-size="9" fill="#10b981" text-anchor="middle" letter-spacing="1">AI ✦</text>
+                <!-- Floating badge - API -->
+                <rect x="30" y="100" width="52" height="24" rx="4" fill="rgba(59,130,246,0.15)" stroke="rgba(59,130,246,0.4)" stroke-width="1"/>
+                <text x="56" y="116" font-family="JetBrains Mono" font-size="9" fill="#3B82F6" text-anchor="middle" letter-spacing="1">API</text>
+                <!-- Decorative dots -->
+                <circle cx="340" cy="170" r="3" fill="#8B5CF6" opacity=".4"/>
+                <circle cx="350" cy="185" r="2" fill="#3B82F6" opacity=".3"/>
+                <circle cx="330" cy="190" r="2" fill="#10b981" opacity=".3"/>
+                <!-- Keyboard hint -->
+                <rect x="120" y="260" width="160" height="30" rx="4" fill="#0d1429" stroke="#1e2d45" stroke-width="1"/>
+                <rect x="128" y="267" width="20" height="10" rx="2" fill="#1e2d45"/>
+                <rect x="152" y="267" width="20" height="10" rx="2" fill="#1e2d45"/>
+                <rect x="176" y="267" width="20" height="10" rx="2" fill="#1e2d45"/>
+                <rect x="200" y="267" width="20" height="10" rx="2" fill="#1e2d45"/>
+                <rect x="224" y="267" width="20" height="10" rx="2" fill="#1e2d45"/>
+            </svg>
+            <div class="about-code">
+                <span class="bracket">{</span><br>
+                &nbsp;&nbsp;<span class="key">"name"</span>: <span class="str">"Ali Shamia"</span>,<br>
+                &nbsp;&nbsp;<span class="key">"role"</span>: <span class="str">"Full Stack Developer"</span>,<br>
+                &nbsp;&nbsp;<span class="key">"location"</span>: <span class="str">"Dubai, UAE"</span>,<br>
+                &nbsp;&nbsp;<span class="key">"experience"</span>: <span class="num">10</span><span class="bracket">+</span> <span class="str">"years"</span>,<br>
+                &nbsp;&nbsp;<span class="key">"available"</span>: <span class="bool">true</span><br>
+                <span class="bracket">}</span>
             </div>
-            <div>
-                <div class="stat-num" data-target="30" data-suffix="+">0+</div>
-                <div class="stat-label">Projects Delivered</div>
-            </div>
-            <div>
-                <div class="stat-num" data-target="5" data-suffix="">0</div>
-                <div class="stat-label">Countries Served</div>
-            </div>
-            <div>
-                <div class="stat-num" data-target="100" data-suffix="%">0%</div>
-                <div class="stat-label">Client Satisfaction</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ══ MARQUEE ══════════════════════════════════════════ -->
-    <div class="marquee-wrap">
-        <div class="marquee-track">
-            <span class="marquee-item">Web Applications</span>
-            <span class="marquee-item">Mobile Apps</span>
-            <span class="marquee-item">AI Integration</span>
-            <span class="marquee-item">E-Commerce</span>
-            <span class="marquee-item">Cloud Deployment</span>
-            <span class="marquee-item">API Development</span>
-            <span class="marquee-item">Systems Architecture</span>
-            <span class="marquee-item">Dubai · UAE</span>
-            <span class="marquee-item">Web Applications</span>
-            <span class="marquee-item">Mobile Apps</span>
-            <span class="marquee-item">AI Integration</span>
-            <span class="marquee-item">E-Commerce</span>
-            <span class="marquee-item">Cloud Deployment</span>
-            <span class="marquee-item">API Development</span>
-            <span class="marquee-item">Systems Architecture</span>
-            <span class="marquee-item">Dubai · UAE</span>
         </div>
     </div>
+    <div class="about-text reveal" style="transition-delay:0.2s">
+        <div class="sec-header">
+            <div class="sec-tag">About me</div>
+            <h2 class="sec-title">A developer who thinks like a business owner</h2>
+        </div>
+        <p>I'm Ali Shamia — a Full Stack Developer based in Dubai with over a decade of experience building digital products across the Middle East, Europe, and beyond.</p>
+        <p>What sets me apart isn't just writing code — it's understanding what you're trying to achieve. I ask the right questions, design the right solution, and deliver something that genuinely moves your business forward.</p>
+        <p>I've built everything from banking platforms and medical conference systems to AI-powered enterprise tools used by thousands of people daily. My clients range from startups finding product-market fit to established organisations modernising legacy systems.</p>
+        <div style="margin-top:36px">
+            <div class="about-detail"><span class="label">Based in</span><span>Dubai, UAE</span></div>
+            <div class="about-detail"><span class="label">Education</span><span>Software Engineering — Al-Baath University</span></div>
+            <div class="about-detail"><span class="label">Work Permit</span><span>Emirati UAE Residency</span></div>
+            <div class="about-detail"><span class="label">Phone</span><span><a href="tel:+971509130747" style="color:var(--blue);text-decoration:none">+971 509 130 747</a></span></div>
+            <div class="about-detail"><span class="label">Languages</span><span>Arabic (native) · English (professional)</span></div>
+        </div>
+    </div>
+</section>
 
-    <!-- ══ ABOUT ════════════════════════════════════════════ -->
-    <section id="about">
-        <div class="about-visual reveal">
-            <div class="about-card">
-                <!-- SVG illustration — developer at work -->
-                <svg viewBox="0 0 400 320" width="100%" xmlns="http://www.w3.org/2000/svg"
-                    style="margin-bottom:28px;display:block;opacity:0.9">
-                    <!-- Monitor -->
-                    <rect x="60" y="40" width="280" height="180" rx="8" fill="#0d1429" stroke="#1e2d45"
-                        stroke-width="1.5" />
-                    <rect x="60" y="40" width="280" height="12" rx="8" fill="#1e2d45" />
-                    <circle cx="80" cy="46" r="3" fill="#f87171" opacity=".8" />
-                    <circle cx="94" cy="46" r="3" fill="#fbbf24" opacity=".8" />
-                    <circle cx="108" cy="46" r="3" fill="#10b981" opacity=".8" />
-                    <!-- Code lines on screen -->
-                    <rect x="80" y="70" width="60" height="6" rx="2" fill="#818cf8" opacity=".7" />
-                    <rect x="150" y="70" width="40" height="6" rx="2" fill="#fbbf24" opacity=".5" />
-                    <rect x="90" y="86" width="80" height="6" rx="2" fill="#94a3b8" opacity=".4" />
-                    <rect x="90" y="102" width="50" height="6" rx="2" fill="#10b981" opacity=".6" />
-                    <rect x="150" y="102" width="30" height="6" rx="2" fill="#fbbf24" opacity=".4" />
-                    <rect x="80" y="118" width="100" height="6" rx="2" fill="#94a3b8" opacity=".3" />
-                    <rect x="90" y="134" width="70" height="6" rx="2" fill="#818cf8" opacity=".5" />
-                    <rect x="170" y="134" width="20" height="6" rx="2" fill="#f87171" opacity=".5" />
-                    <rect x="80" y="150" width="90" height="6" rx="2" fill="#94a3b8" opacity=".35" />
-                    <rect x="80" y="166" width="40" height="6" rx="2" fill="#10b981" opacity=".5" />
-                    <rect x="130" y="166" width="60" height="6" rx="2" fill="#fbbf24" opacity=".3" />
-                    <!-- Cursor blink -->
-                    <rect x="196" y="166" width="2" height="8" rx="1" fill="#3B82F6" opacity=".9">
-                        <animate attributeName="opacity" values="0.9;0;0.9" dur="1s" repeatCount="indefinite" />
-                    </rect>
-                    <!-- Monitor stand -->
-                    <rect x="180" y="220" width="40" height="16" rx="2" fill="#1e2d45" />
-                    <rect x="155" y="236" width="90" height="6" rx="2" fill="#1e2d45" />
-                    <!-- Floating badge - AI -->
-                    <rect x="300" y="60" width="60" height="24" rx="4" fill="rgba(16,185,129,0.15)"
-                        stroke="rgba(16,185,129,0.4)" stroke-width="1" />
-                    <text x="330" y="76" font-family="JetBrains Mono" font-size="9" fill="#10b981" text-anchor="middle"
-                        letter-spacing="1">AI ✦</text>
-                    <!-- Floating badge - API -->
-                    <rect x="30" y="100" width="52" height="24" rx="4" fill="rgba(59,130,246,0.15)"
-                        stroke="rgba(59,130,246,0.4)" stroke-width="1" />
-                    <text x="56" y="116" font-family="JetBrains Mono" font-size="9" fill="#3B82F6" text-anchor="middle"
-                        letter-spacing="1">API</text>
-                    <!-- Decorative dots -->
-                    <circle cx="340" cy="170" r="3" fill="#8B5CF6" opacity=".4" />
-                    <circle cx="350" cy="185" r="2" fill="#3B82F6" opacity=".3" />
-                    <circle cx="330" cy="190" r="2" fill="#10b981" opacity=".3" />
-                    <!-- Keyboard hint -->
-                    <rect x="120" y="260" width="160" height="30" rx="4" fill="#0d1429" stroke="#1e2d45"
-                        stroke-width="1" />
-                    <rect x="128" y="267" width="20" height="10" rx="2" fill="#1e2d45" />
-                    <rect x="152" y="267" width="20" height="10" rx="2" fill="#1e2d45" />
-                    <rect x="176" y="267" width="20" height="10" rx="2" fill="#1e2d45" />
-                    <rect x="200" y="267" width="20" height="10" rx="2" fill="#1e2d45" />
-                    <rect x="224" y="267" width="20" height="10" rx="2" fill="#1e2d45" />
+<!-- ══ SERVICES (customer-friendly language) ═══════════ -->
+<section id="services" aria-label="Services">
+    <div class="sec-header reveal">
+        <div class="sec-tag">What I can do for you</div>
+        <h2 class="sec-title">How I Help Businesses Grow</h2>
+    </div>
+    <div class="services-intro reveal" style="transition-delay:0.1s">
+        <p>Whether you're starting from scratch or need to improve what you already have — I deliver complete, working solutions. No handoffs, no confusion. You get a single experienced developer who sees it through from idea to launch.</p>
+    </div>
+
+    <div class="services-grid" style="margin-top:48px">
+
+        <!-- 01 Web Applications -->
+        <div class="service-card reveal" style="transition-delay:0.05s">
+            <div class="service-visual">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+                    <path d="M6 8h4M6 11h8"/>
                 </svg>
-                <div class="about-code">
-                    <span class="bracket">{</span><br>
-                    &nbsp;&nbsp;<span class="key">"name"</span>: <span class="str">"Ali Shamia"</span>,<br>
-                    &nbsp;&nbsp;<span class="key">"role"</span>: <span class="str">"Full Stack Developer"</span>,<br>
-                    &nbsp;&nbsp;<span class="key">"location"</span>: <span class="str">"Dubai, UAE"</span>,<br>
-                    &nbsp;&nbsp;<span class="key">"experience"</span>: <span class="num">10</span><span
-                        class="bracket">+</span> <span class="str">"years"</span>,<br>
-                    &nbsp;&nbsp;<span class="key">"available"</span>: <span class="bool">true</span><br>
-                    <span class="bracket">}</span>
-                </div>
             </div>
-        </div>
-        <div class="about-text reveal" style="transition-delay:0.2s">
-            <div class="sec-header">
-                <div class="sec-tag">About me</div>
-                <h2 class="sec-title">A developer who thinks like a business owner</h2>
-            </div>
-            <p>I'm Ali Shamia — a Full Stack Developer based in Dubai with over a decade of experience building digital
-                products across the Middle East, Europe, and beyond.</p>
-            <p>What sets me apart isn't just writing code — it's understanding what you're trying to achieve. I ask the
-                right questions, design the right solution, and deliver something that genuinely moves your business
-                forward.</p>
-            <p>I've built everything from banking platforms and medical conference systems to AI-powered enterprise
-                tools used by thousands of people daily. My clients range from startups finding product-market fit to
-                established organisations modernising legacy systems.</p>
-            <div style="margin-top:36px">
-                <div class="about-detail"><span class="label">Based in</span><span>Dubai, UAE</span></div>
-                <div class="about-detail"><span class="label">Education</span><span>Software Engineering — Al-Baath
-                        University</span></div>
-                <div class="about-detail"><span class="label">Work Permit</span><span>Emirati UAE Residency</span></div>
-                <div class="about-detail"><span class="label">Phone</span><span><a href="tel:+971509130747"
-                            style="color:var(--blue);text-decoration:none">+971 509 130 747</a></span></div>
-                <div class="about-detail"><span class="label">Languages</span><span>Arabic (native) · English
-                        (professional)</span></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ══ SERVICES (customer-friendly language) ═══════════ -->
-    <section id="services">
-        <div class="sec-header reveal">
-            <div class="sec-tag">What I can do for you</div>
-            <h2 class="sec-title">How I Help Businesses Grow</h2>
-        </div>
-        <div class="services-intro reveal" style="transition-delay:0.1s">
-            <p>Whether you're starting from scratch or need to improve what you already have — I deliver complete,
-                working solutions. No handoffs, no confusion. You get a single experienced developer who sees it through
-                from idea to launch.</p>
+            <div class="service-num">01</div>
+            <div class="service-name">Custom Web Applications</div>
+            <p class="service-desc">Got a business idea or an internal process that needs a digital home? I design and build web applications tailored exactly to your workflow — no off-the-shelf compromises.</p>
+            <ul class="service-outcomes">
+                <li>Works beautifully on desktop, tablet, and mobile</li>
+                <li>Built to handle growth without needing a rebuild</li>
+                <li>Includes admin panels, dashboards, and reporting</li>
+                <li>Fast delivery with clear milestones along the way</li>
+            </ul>
         </div>
 
-        <div class="services-grid" style="margin-top:48px">
-
-            <!-- 01 Web Applications -->
-            <div class="service-card reveal" style="transition-delay:0.05s">
-                <div class="service-visual">
-                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="2" y="3" width="20" height="14" rx="2" />
-                        <path d="M8 21h8M12 17v4" />
-                        <path d="M6 8h4M6 11h8" />
-                    </svg>
-                </div>
-                <div class="service-num">01</div>
-                <div class="service-name">Custom Web Applications</div>
-                <p class="service-desc">Got a business idea or an internal process that needs a digital home? I design
-                    and build web applications tailored exactly to your workflow — no off-the-shelf compromises.</p>
-                <ul class="service-outcomes">
-                    <li>Works beautifully on desktop, tablet, and mobile</li>
-                    <li>Built to handle growth without needing a rebuild</li>
-                    <li>Includes admin panels, dashboards, and reporting</li>
-                    <li>Fast delivery with clear milestones along the way</li>
-                </ul>
+        <!-- 02 E-Commerce -->
+        <div class="service-card reveal" style="transition-delay:0.12s">
+            <div class="service-visual">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18"/>
+                    <path d="M16 10a4 4 0 01-8 0"/>
+                </svg>
             </div>
-
-            <!-- 02 E-Commerce -->
-            <div class="service-card reveal" style="transition-delay:0.12s">
-                <div class="service-visual">
-                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
-                        <path d="M3 6h18" />
-                        <path d="M16 10a4 4 0 01-8 0" />
-                    </svg>
-                </div>
-                <div class="service-num">02</div>
-                <div class="service-name">Online Stores & E-Commerce</div>
-                <p class="service-desc">Sell online with confidence. I build complete e-commerce experiences — from
-                    product listings and shopping carts to secure checkout and order management — designed to convert
-                    visitors into buyers.</p>
-                <ul class="service-outcomes">
-                    <li>Easy-to-manage product catalogue</li>
-                    <li>Order tracking and customer notifications</li>
-                    <li>Works for any scale — small boutique to large catalogue</li>
-                </ul>
-            </div>
-
-            <!-- 03 AI-Powered Tools -->
-            <div class="service-card reveal" style="transition-delay:0.19s">
-                <div class="service-visual">
-                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="3" />
-                        <path
-                            d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" />
-                    </svg>
-                </div>
-                <div class="service-num">03</div>
-                <div class="service-name">AI-Powered Features</div>
-                <p class="service-desc">Bring real intelligence into your product. I integrate AI that actually earns
-                    its place — smart search that understands questions, auto-generated content, intelligent Q&amp;A,
-                    and automated workflows that save your team hours every day.</p>
-                <ul class="service-outcomes">
-                    <li>Smart search that understands natural language</li>
-                    <li>Auto-generate reports, summaries, and content</li>
-                </ul>
-            </div>
-
-            <!-- 04 Mobile Apps -->
-            <div class="service-card reveal" style="transition-delay:0.26s">
-                <div class="service-visual">
-                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="5" y="2" width="14" height="20" rx="2" />
-                        <path d="M12 18h.01" />
-                    </svg>
-                </div>
-                <div class="service-num">04</div>
-                <div class="service-name">Mobile App Development</div>
-                <p class="service-desc">Reach your customers wherever they are. I build mobile apps that feel native on
-                    both iPhone and Android — sharing the same codebase as your website, so updates happen everywhere at
-                    once.</p>
-                <ul class="service-outcomes">
-                    <li>Works on both iOS and Android from one build</li>
-                    <li>Consistent experience with your web product</li>
-                    <li>Push notifications, offline support, and more</li>
-                    <li>Faster to build and cheaper to maintain</li>
-                </ul>
-            </div>
-
-            <!-- 05 Cloud & Launch -->
-            <div class="service-card reveal" style="transition-delay:0.33s">
-                <div class="service-visual">
-                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M3 7l9-4 9 4v10l-9 4-9-4V7z" />
-                        <path d="M3 7l9 4 9-4" />
-                        <path d="M12 11v10" />
-                    </svg>
-                </div>
-                <div class="service-num">05</div>
-                <div class="service-name">Launch & Keep it Running</div>
-                <p class="service-desc">Building is only half the job. I handle the full deployment — getting your
-                    product live, configured correctly, and stable so you can focus on your business, not infrastructure
-                    headaches.</p>
-                <ul class="service-outcomes">
-                    <li>Full deployment on cloud servers of your choice</li>
-                    <li>Automated backups and security hardening</li>
-                    <li>Performance monitoring and uptime alerts</li>
-                    <li>Ongoing support and feature updates</li>
-                </ul>
-            </div>
-
-            <!-- 06 Consulting -->
-            <div class="service-card reveal" style="transition-delay:0.40s">
-                <div class="service-visual">
-                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 20h9" />
-                        <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
-                    </svg>
-                </div>
-                <div class="service-num">06</div>
-                <div class="service-name">Technical Advice & Strategy</div>
-                <p class="service-desc">Not sure which direction to go? Dealing with a slow or broken system? I help you
-                    think through the big decisions before committing budget — so you invest in the right thing from the
-                    start.</p>
-                <ul class="service-outcomes">
-                    <li>Honest review of your current setup</li>
-                    <li>Clear recommendations without jargon</li>
-                    <li>Roadmap for improvement that fits your budget</li>
-                    <li>No conflict of interest — just straight advice</li>
-                </ul>
-            </div>
-
+            <div class="service-num">02</div>
+            <div class="service-name">Online Stores & E-Commerce</div>
+            <p class="service-desc">Sell online with confidence. I build complete e-commerce experiences — from product listings and shopping carts to secure checkout and order management — designed to convert visitors into buyers.</p>
+            <ul class="service-outcomes">
+                <li>Secure payment processing (cards, local gateways)</li>
+                <li>Easy-to-manage product catalogue</li>
+                <li>Order tracking and customer notifications</li>
+                <li>Works for any scale — small boutique to large catalogue</li>
+            </ul>
         </div>
 
-        <!-- CTA bar -->
-        <div class="services-cta reveal" style="transition-delay:0.5s;margin-top:3px">
-            <div class="services-cta-inner">
-                <div>
-                    <div class="services-cta-title">Not sure what you need yet?</div>
-                    <div class="services-cta-sub">That's fine — tell me your challenge and I'll suggest the right
-                        approach.</div>
+        <!-- 03 AI-Powered Tools -->
+        <div class="service-card reveal" style="transition-delay:0.19s">
+            <div class="service-visual">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+                </svg>
+            </div>
+            <div class="service-num">03</div>
+            <div class="service-name">AI-Powered Features</div>
+            <p class="service-desc">Bring real intelligence into your product. I integrate AI that actually earns its place — smart search that understands questions, auto-generated content, intelligent Q&amp;A, and automated workflows that save your team hours every day.</p>
+            <ul class="service-outcomes">
+                <li>Smart search that understands natural language</li>
+                <li>Auto-generate reports, summaries, and content</li>
+                <li>Intelligent chatbots trained on your data</li>
+                <li>Proven in enterprise platforms with thousands of daily users</li>
+            </ul>
+        </div>
+
+        <!-- 04 Mobile Apps -->
+        <div class="service-card reveal" style="transition-delay:0.26s">
+            <div class="service-visual">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/>
+                </svg>
+            </div>
+            <div class="service-num">04</div>
+            <div class="service-name">Mobile App Development</div>
+            <p class="service-desc">Reach your customers wherever they are. I build mobile apps that feel native on both iPhone and Android — sharing the same codebase as your website, so updates happen everywhere at once.</p>
+            <ul class="service-outcomes">
+                <li>Works on both iOS and Android from one build</li>
+                <li>Consistent experience with your web product</li>
+                <li>Push notifications, offline support, and more</li>
+                <li>Faster to build and cheaper to maintain</li>
+            </ul>
+        </div>
+
+        <!-- 05 Cloud & Launch -->
+        <div class="service-card reveal" style="transition-delay:0.33s">
+            <div class="service-visual">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 7l9-4 9 4v10l-9 4-9-4V7z"/><path d="M3 7l9 4 9-4"/><path d="M12 11v10"/>
+                </svg>
+            </div>
+            <div class="service-num">05</div>
+            <div class="service-name">Launch & Keep it Running</div>
+            <p class="service-desc">Building is only half the job. I handle the full deployment — getting your product live, configured correctly, and stable so you can focus on your business, not infrastructure headaches.</p>
+            <ul class="service-outcomes">
+                <li>Full deployment on cloud servers of your choice</li>
+                <li>Automated backups and security hardening</li>
+                <li>Performance monitoring and uptime alerts</li>
+                <li>Ongoing support and feature updates</li>
+            </ul>
+        </div>
+
+        <!-- 06 Consulting -->
+        <div class="service-card reveal" style="transition-delay:0.40s">
+            <div class="service-visual">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                </svg>
+            </div>
+            <div class="service-num">06</div>
+            <div class="service-name">Technical Advice & Strategy</div>
+            <p class="service-desc">Not sure which direction to go? Dealing with a slow or broken system? I help you think through the big decisions before committing budget — so you invest in the right thing from the start.</p>
+            <ul class="service-outcomes">
+                <li>Honest review of your current setup</li>
+                <li>Clear recommendations without jargon</li>
+                <li>Roadmap for improvement that fits your budget</li>
+                <li>No conflict of interest — just straight advice</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- CTA bar -->
+    <div class="services-cta reveal" style="transition-delay:0.5s;margin-top:3px">
+        <div class="services-cta-inner">
+            <div>
+                <div class="services-cta-title">Not sure what you need yet?</div>
+                <div class="services-cta-sub">That's fine — tell me your challenge and I'll suggest the right approach.</div>
+            </div>
+            <a href="#contact" class="btn-primary">Start a Conversation</a>
+        </div>
+    </div>
+</section>
+
+<!-- ══ TECH STACK (separate, visual) ══════════════════ -->
+<section id="stack" aria-label="Tech Stack">
+    <div class="sec-header reveal">
+        <div class="sec-tag">Under the hood</div>
+        <h2 class="sec-title">Tools I Build With</h2>
+    </div>
+    <p class="stack-intro reveal" style="transition-delay:0.1s">
+        A decade of hands-on experience across the full development spectrum — from pixel-perfect interfaces to distributed backend systems and cloud infrastructure.
+    </p>
+
+    <div class="stack-categories reveal" style="transition-delay:0.2s">
+
+        <div class="stack-row">
+            <div class="stack-row-label">
+                <div class="stack-row-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9l3 3-3 3M13 15h3"/></svg>
                 </div>
-                <a href="#contact" class="btn-primary">Start a Conversation</a>
+                <div class="stack-row-name">Frontend</div>
+                <div class="stack-row-sub">What users see & touch</div>
+                <div class="stack-visual-bar"></div>
+            </div>
+            <div class="stack-row-items">
+                <span class="stack-pill featured"><span class="pill-dot"></span>React</span>
+                <span class="stack-pill featured"><span class="pill-dot"></span>Angular</span>
+                <span class="stack-pill"><span class="pill-dot"></span>TypeScript</span>
+                <span class="stack-pill"><span class="pill-dot"></span>HTML5 / CSS3</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Responsive Design</span>
+                <span class="stack-pill"><span class="pill-dot"></span>MUI / Tailwind</span>
             </div>
         </div>
-    </section>
 
-    <!-- ══ TECH STACK (separate, visual) ══════════════════ -->
-    <section id="stack">
-        <div class="sec-header reveal">
-            <div class="sec-tag">Under the hood</div>
-            <h2 class="sec-title">Tools I Build With</h2>
+        <div class="stack-row">
+            <div class="stack-row-label">
+                <div class="stack-row-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+                <div class="stack-row-name">Backend</div>
+                <div class="stack-row-sub">Logic, APIs & security</div>
+                <div class="stack-visual-bar"></div>
+            </div>
+            <div class="stack-row-items">
+                <span class="stack-pill featured"><span class="pill-dot"></span>NestJS</span>
+                <span class="stack-pill featured"><span class="pill-dot"></span>Laravel</span>
+                <span class="stack-pill featured"><span class="pill-dot"></span>Python</span>
+                <span class="stack-pill"><span class="pill-dot"></span>PHP</span>
+                <span class="stack-pill"><span class="pill-dot"></span>RESTful APIs</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Node.js</span>
+            </div>
         </div>
-        <p class="stack-intro reveal" style="transition-delay:0.1s">
-            A decade of hands-on experience across the full development spectrum — from pixel-perfect interfaces to
-            distributed backend systems and cloud infrastructure.
+
+        <div class="stack-row">
+            <div class="stack-row-label">
+                <div class="stack-row-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                </div>
+                <div class="stack-row-name">Databases</div>
+                <div class="stack-row-sub">Data storage & retrieval</div>
+                <div class="stack-visual-bar"></div>
+            </div>
+            <div class="stack-row-items">
+                <span class="stack-pill featured"><span class="pill-dot"></span>PostgreSQL</span>
+                <span class="stack-pill featured"><span class="pill-dot"></span>MySQL</span>
+                <span class="stack-pill featured"><span class="pill-dot"></span>Redis</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Query Optimisation</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Database Design</span>
+            </div>
+        </div>
+
+        <div class="stack-row">
+            <div class="stack-row-label">
+                <div class="stack-row-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3"/></svg>
+                </div>
+                <div class="stack-row-name">AI & Messaging</div>
+                <div class="stack-row-sub">Intelligence & async systems</div>
+                <div class="stack-visual-bar"></div>
+            </div>
+            <div class="stack-row-items">
+                <span class="stack-pill featured"><span class="pill-dot"></span>OpenAI / GPT-4.1</span>
+                <span class="stack-pill featured"><span class="pill-dot"></span>RabbitMQ</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Semantic Search</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Prompt Engineering</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Event-Driven Architecture</span>
+            </div>
+        </div>
+
+        <div class="stack-row">
+            <div class="stack-row-label">
+                <div class="stack-row-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+                </div>
+                <div class="stack-row-name">Mobile</div>
+                <div class="stack-row-sub">iOS & Android apps</div>
+                <div class="stack-visual-bar"></div>
+            </div>
+            <div class="stack-row-items">
+                <span class="stack-pill featured"><span class="pill-dot"></span>React Native</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Android (Java)</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Cross-Platform</span>
+                <span class="stack-pill"><span class="pill-dot"></span>App Store Deployment</span>
+            </div>
+        </div>
+
+        <div class="stack-row">
+            <div class="stack-row-label">
+                <div class="stack-row-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="1.5"><path d="M3 7l9-4 9 4v10l-9 4-9-4V7z"/><path d="M3 7l9 4 9-4M12 11v10"/></svg>
+                </div>
+                <div class="stack-row-name">DevOps & Tools</div>
+                <div class="stack-row-sub">Deployment & workflow</div>
+                <div class="stack-visual-bar"></div>
+            </div>
+            <div class="stack-row-items">
+                <span class="stack-pill featured"><span class="pill-dot"></span>Git</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Linux Servers</span>
+                <span class="stack-pill"><span class="pill-dot"></span>CI/CD Pipelines</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Payment Gateways</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Third-party APIs</span>
+                <span class="stack-pill"><span class="pill-dot"></span>Security Practices</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ══ PROJECTS ══════════════════════════════════════════ -->
+<section id="projects" aria-label="Featured Projects">
+    <div class="sec-header reveal">
+        <div class="sec-tag">Featured work</div>
+        <h2 class="sec-title">Projects I've Built</h2>
+    </div>
+
+    <div class="project-card reveal">
+        <div class="project-header">
+            <div class="project-title-wrap">
+                <div class="project-name">CCM Portal</div>
+                <div class="project-meta">
+                    <span class="badge badge-internal">Internal · Confidential</span>
+                    <span class="badge badge-enterprise">Enterprise System</span>
+                    <span class="badge badge-ai">AI-Powered</span>
+                </div>
+            </div>
+            <div class="project-company">@ LG Electronics MEA · 2024 — Present</div>
+        </div>
+
+        <!-- Visual diagram of the platform -->
+        <div style="margin:20px 0 32px;padding:32px;background:#0d1429;border:1px solid var(--border);border-radius:2px">
+            <svg viewBox="0 0 680 200" width="100%" xmlns="http://www.w3.org/2000/svg">
+                <!-- Central hub -->
+                <rect x="270" y="70" width="140" height="60" rx="6" fill="rgba(59,130,246,0.1)" stroke="rgba(59,130,246,0.4)" stroke-width="1"/>
+                <text x="340" y="97" font-family="Bebas Neue,sans-serif" font-size="13" fill="#3B82F6" text-anchor="middle" letter-spacing="1">CCM Portal</text>
+                <text x="340" y="114" font-family="JetBrains Mono,monospace" font-size="9" fill="#64748b" text-anchor="middle">LG Electronics MEA</text>
+                <!-- Module 1 -->
+                <rect x="30" y="20" width="130" height="44" rx="4" fill="#111827" stroke="#1e2d45" stroke-width="1"/>
+                <text x="95" y="39" font-family="Bebas Neue,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle" letter-spacing="0.5">Employment</text>
+                <text x="95" y="55" font-family="JetBrains Mono,monospace" font-size="8" fill="#64748b" text-anchor="middle">HR & Leave Management</text>
+                <line x1="160" y1="42" x2="270" y2="85" stroke="#1e2d45" stroke-width="1" stroke-dasharray="4 3"/>
+                <!-- Module 2 AI -->
+                <rect x="30" y="136" width="130" height="44" rx="4" fill="#111827" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+                <text x="95" y="155" font-family="Bebas Neue,sans-serif" font-size="11" fill="#10b981" text-anchor="middle" letter-spacing="0.5">Knowledge Base</text>
+                <text x="95" y="171" font-family="JetBrains Mono,monospace" font-size="8" fill="#10b981" text-anchor="middle" opacity=".6">✦ AI Semantic Search</text>
+                <line x1="160" y1="158" x2="270" y2="115" stroke="rgba(16,185,129,0.25)" stroke-width="1" stroke-dasharray="4 3"/>
+                <!-- Module 3 -->
+                <rect x="520" y="20" width="130" height="44" rx="4" fill="#111827" stroke="#1e2d45" stroke-width="1"/>
+                <text x="585" y="39" font-family="Bebas Neue,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle" letter-spacing="0.5">QA Evaluation</text>
+                <text x="585" y="55" font-family="JetBrains Mono,monospace" font-size="8" fill="#64748b" text-anchor="middle">Scoring & Reporting</text>
+                <line x1="520" y1="42" x2="410" y2="85" stroke="#1e2d45" stroke-width="1" stroke-dasharray="4 3"/>
+                <!-- Module 4 AI -->
+                <rect x="520" y="136" width="130" height="44" rx="4" fill="#111827" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+                <text x="585" y="155" font-family="Bebas Neue,sans-serif" font-size="11" fill="#10b981" text-anchor="middle" letter-spacing="0.5">E-Learning</text>
+                <text x="585" y="171" font-family="JetBrains Mono,monospace" font-size="8" fill="#10b981" text-anchor="middle" opacity=".6">✦ AI Course Generation</text>
+                <line x1="520" y1="158" x2="410" y2="115" stroke="rgba(16,185,129,0.25)" stroke-width="1" stroke-dasharray="4 3"/>
+            </svg>
+        </div>
+
+        <p class="project-desc">
+            An all-in-one platform built for LG Electronics MEA that replaces a patchwork of disconnected tools with a single system. Consultant profiles, leave management, a company knowledge base, QA evaluations, and an e-learning platform — all in one place. The Knowledge Base and E-learning modules use AI to make institutional knowledge instantly searchable and to generate training courses automatically.
         </p>
 
-        <div class="stack-categories reveal" style="transition-delay:0.2s">
-
-            <div class="stack-row">
-                <div class="stack-row-label">
-                    <div class="stack-row-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5">
-                            <rect x="3" y="3" width="18" height="18" rx="2" />
-                            <path d="M9 9l3 3-3 3M13 15h3" />
-                        </svg>
-                    </div>
-                    <div class="stack-row-name">Frontend</div>
-                    <div class="stack-row-sub">What users see & touch</div>
-                    <div class="stack-visual-bar"></div>
-                </div>
-                <div class="stack-row-items">
-                    <span class="stack-pill featured"><span class="pill-dot"></span>React</span>
-                    <span class="stack-pill featured"><span class="pill-dot"></span>Angular</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>TypeScript</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>HTML5 / CSS3</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Responsive Design</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>MUI / Tailwind</span>
-                </div>
+        <div class="modules-grid">
+            <div class="module-card reveal" style="transition-delay:0.05s">
+                <span class="module-icon">👤</span>
+                <div class="module-num">01 / 04</div>
+                <div class="module-title">Workforce Management</div>
+                <div class="module-desc">Centralised consultant profiles, leave requests, and HR approval workflows. Real-time visibility across the entire MEA region.</div>
             </div>
-
-            <div class="stack-row">
-                <div class="stack-row-label">
-                    <div class="stack-row-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="1.5">
-                            <path d="M5 12h14M12 5l7 7-7 7" />
-                        </svg>
-                    </div>
-                    <div class="stack-row-name">Backend</div>
-                    <div class="stack-row-sub">Logic, APIs & security</div>
-                    <div class="stack-visual-bar"></div>
-                </div>
-                <div class="stack-row-items">
-                    <span class="stack-pill featured"><span class="pill-dot"></span>NestJS</span>
-                    <span class="stack-pill featured"><span class="pill-dot"></span>Laravel</span>
-                    <span class="stack-pill featured"><span class="pill-dot"></span>Python</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>PHP</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>RESTful APIs</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Node.js</span>
-                </div>
+            <div class="module-card highlight-ai reveal" style="transition-delay:0.15s">
+                <span class="module-icon">🧠</span>
+                <div class="module-num">02 / 04</div>
+                <div class="module-title">Smart Knowledge Base <span style="color:var(--green);font-size:0.85rem">+ AI</span></div>
+                <div class="module-desc">Ask a question in plain language and get a smart, contextual answer from the company's internal knowledge — powered by GPT-4.1. Replaced slow keyword search entirely.</div>
             </div>
-
-            <div class="stack-row">
-                <div class="stack-row-label">
-                    <div class="stack-row-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="1.5">
-                            <ellipse cx="12" cy="5" rx="9" ry="3" />
-                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
-                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
-                        </svg>
-                    </div>
-                    <div class="stack-row-name">Databases</div>
-                    <div class="stack-row-sub">Data storage & retrieval</div>
-                    <div class="stack-visual-bar"></div>
-                </div>
-                <div class="stack-row-items">
-                    <span class="stack-pill featured"><span class="pill-dot"></span>PostgreSQL</span>
-                    <span class="stack-pill featured"><span class="pill-dot"></span>MySQL</span>
-                    <span class="stack-pill featured"><span class="pill-dot"></span>Redis</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Query Optimisation</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Database Design</span>
-                </div>
+            <div class="module-card reveal" style="transition-delay:0.25s">
+                <span class="module-icon">✅</span>
+                <div class="module-num">03 / 04</div>
+                <div class="module-title">QA & Performance</div>
+                <div class="module-desc">Structured quality evaluations with scoring, feedback loops, and reporting. Gives managers clear data on consultant performance and service quality trends.</div>
             </div>
-
-            <div class="stack-row">
-                <div class="stack-row-label">
-                    <div class="stack-row-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.5">
-                            <circle cx="12" cy="12" r="3" />
-                            <path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3" />
-                        </svg>
-                    </div>
-                    <div class="stack-row-name">AI & Messaging</div>
-                    <div class="stack-row-sub">Intelligence & async systems</div>
-                    <div class="stack-visual-bar"></div>
-                </div>
-                <div class="stack-row-items">
-                    <span class="stack-pill featured"><span class="pill-dot"></span>OpenAI / GPT-4.1</span>
-                    <span class="stack-pill featured"><span class="pill-dot"></span>RabbitMQ</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Semantic Search</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Prompt Engineering</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Event-Driven Architecture</span>
-                </div>
+            <div class="module-card highlight-ai reveal" style="transition-delay:0.35s">
+                <span class="module-icon">🎓</span>
+                <div class="module-num">04 / 04</div>
+                <div class="module-title">E-Learning <span style="color:var(--green);font-size:0.85rem">+ AI</span></div>
+                <div class="module-desc">Courses and quizzes generated automatically from existing knowledge content via OpenAI. Training stays current and scalable — without the manual effort of traditional course creation.</div>
             </div>
+        </div>
 
-            <div class="stack-row">
-                <div class="stack-row-label">
-                    <div class="stack-row-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5">
-                            <rect x="5" y="2" width="14" height="20" rx="2" />
-                            <path d="M12 18h.01" />
-                        </svg>
-                    </div>
-                    <div class="stack-row-name">Mobile</div>
-                    <div class="stack-row-sub">iOS & Android apps</div>
-                    <div class="stack-visual-bar"></div>
-                </div>
-                <div class="stack-row-items">
-                    <span class="stack-pill featured"><span class="pill-dot"></span>React Native</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Android (Java)</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Cross-Platform</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>App Store Deployment</span>
-                </div>
+        <div class="project-tech">
+            <div class="project-tech-label">// Tech stack used</div>
+            <span class="skill-tag featured">NestJS</span>
+            <span class="skill-tag featured">Laravel</span>
+            <span class="skill-tag featured">Angular</span>
+            <span class="skill-tag featured">React</span>
+            <span class="skill-tag featured">GPT-4.1</span>
+            <span class="skill-tag featured">OpenAI API</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">RabbitMQ</span>
+            <span class="skill-tag">RESTful APIs</span>
+            <span class="skill-tag">Semantic Search</span>
+        </div>
+    </div>
+</section>
+
+<!-- ══ EXPERIENCE ════════════════════════════════════════ -->
+<section id="experience" aria-label="Work Experience">
+    <div class="sec-header reveal">
+        <div class="sec-tag">Career timeline</div>
+        <h2 class="sec-title">Where I've Worked</h2>
+    </div>
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-period">Jun 2024 — Present · Dubai, UAE</div>
+            <div class="timeline-role">Full Stack Web Developer</div>
+            <div class="timeline-company">LG Electronics MEA</div>
+            <ul class="timeline-bullets">
+                <li>Led development of the CCM Portal — an enterprise platform unifying HR, knowledge management, QA and e-learning across the MEA region.</li>
+                <li>Integrated AI-powered semantic search and course generation using GPT-4.1, significantly reducing manual effort across departments.</li>
+                <li>Built and maintained APIs connecting multiple internal systems into a single data source for cleaner reporting.</li>
+                <li>Optimised front-end performance and enforced secure development practices aligned with enterprise IT standards.</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-period">Nov 2021 — Jun 2024 · Dubai, UAE</div>
+            <div class="timeline-role">Full Stack Web Developer</div>
+            <div class="timeline-company">MEDCON Conferences &amp; Exhibitions DMCC</div>
+            <ul class="timeline-bullets">
+                <li>Built and maintained web applications for international medical conferences and exhibitions.</li>
+                <li>Integrated payment processing, geolocation, and social media APIs for attendee-facing platforms.</li>
+                <li>Led migration of legacy systems to modern frameworks, improving maintainability and load times significantly.</li>
+            </ul>
+            <div class="timeline-links">
+                <a href="http://medcon-me.com/" target="_blank" class="tl-link">medcon-me.com ↗</a>
             </div>
+        </div>
 
-            <div class="stack-row">
-                <div class="stack-row-label">
-                    <div class="stack-row-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="1.5">
-                            <path d="M3 7l9-4 9 4v10l-9 4-9-4V7z" />
-                            <path d="M3 7l9 4 9-4M12 11v10" />
-                        </svg>
-                    </div>
-                    <div class="stack-row-name">DevOps & Tools</div>
-                    <div class="stack-row-sub">Deployment & workflow</div>
-                    <div class="stack-visual-bar"></div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-period">Mar 2021 — Jan 2022 · Belgium (Remote)</div>
+            <div class="timeline-role">Freelance Web Developer</div>
+            <div class="timeline-company">Startup — Belgium</div>
+            <ul class="timeline-bullets">
+                <li>Developed front-end and back-end features for a Belgian startup product.</li>
+                <li>Participated in code reviews and contributed to improving development practices.</li>
+            </ul>
+            <div class="timeline-links">
+                <a href="https://i-web.be" target="_blank" class="tl-link">i-web.be ↗</a>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-period">Feb 2017 — Sep 2021 · Syria</div>
+            <div class="timeline-role">Web Developer</div>
+            <div class="timeline-company">Central Bank of Syria</div>
+            <ul class="timeline-bullets">
+                <li>Built a web application for managing damaged currency exchange — handling sensitive financial data at national scale.</li>
+                <li>Developed a banking platform for money exchange and international transfer used by multiple banks and exchange companies.</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-period">Dec 2019 — Apr 2020 · Netherlands (Remote)</div>
+            <div class="timeline-role">Freelance Web Developer</div>
+            <div class="timeline-company">Client — Netherlands</div>
+            <ul class="timeline-bullets">
+                <li>Delivered a web solution for a Dutch client with ongoing remote support and consulting.</li>
+            </ul>
+            <div class="timeline-links">
+                <a href="https://klusfixen.nl/" target="_blank" class="tl-link">klusfixen.nl ↗</a>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-period">Dec 2018 — Nov 2020 · Dubai, UAE (Part-time)</div>
+            <div class="timeline-role">Web Developer</div>
+            <div class="timeline-company">Taif Al-Emarat Perfumes</div>
+            <ul class="timeline-bullets">
+                <li>Built a full e-commerce website including product management CMS, customer-facing store, and RESTful API.</li>
+            </ul>
+            <div class="timeline-links">
+                <a href="https://taifalemarat.com/" target="_blank" class="tl-link">taifalemarat.com ↗</a>
+                <a href="https://ramasat.com/" target="_blank" class="tl-link">ramasat.com ↗</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ══ CONTACT ═══════════════════════════════════════════ -->
+<section id="contact" aria-label="Contact">
+    <div class="contact-wrap">
+        <div class="sec-tag" style="justify-content:center;margin-bottom:20px">Contact</div>
+        <div class="contact-big-text reveal">
+            Let's build<br><span class="grad-text">something great.</span>
+        </div>
+        <p class="contact-sub reveal" style="transition-delay:0.15s">
+            Whether you have a project in mind, a team to grow, or just want to explore what's possible — I'd love to hear from you.
+        </p>
+        <div class="contact-grid reveal" style="transition-delay:0.3s">
+
+            <a href="mailto:shamiaali7@gmail.com" class="contact-card">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-method">Email</div>
+                <div class="contact-value">shamiaali7@gmail.com</div>
+                <div class="contact-action" style="background:rgba(59,130,246,0.1);color:var(--blue);margin-top:10px">✉ Send me an email</div>
+            </a>
+
+            <a href="https://wa.me/971509130747?text=Hi%20Ali%2C%20I%20found%20your%20portfolio%20and%20I%27d%20love%20to%20connect!" target="_blank" class="contact-card wa-card">
+                <div class="contact-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                 </div>
-                <div class="stack-row-items">
-                    <span class="stack-pill featured"><span class="pill-dot"></span>Git</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Linux Servers</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>CI/CD Pipelines</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Payment Gateways</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Third-party APIs</span>
-                    <span class="stack-pill"><span class="pill-dot"></span>Security Practices</span>
+                <div class="contact-method">WhatsApp</div>
+                <div class="contact-value">+971 509 130 747</div>
+                <div class="contact-action">💬 Message me on WhatsApp</div>
+            </a>
+
+            <a href="https://linkedin.com/in/ali-shamia/" target="_blank" class="contact-card li-card">
+                <div class="contact-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="#0a66c2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </div>
+                <div class="contact-method">LinkedIn</div>
+                <div class="contact-value">linkedin.com/in/ali-shamia</div>
+                <div class="contact-action">👥 Connect on LinkedIn</div>
+            </a>
+
+            <div class="contact-card" style="cursor:default">
+                <div class="contact-icon">📍</div>
+                <div class="contact-method">Location</div>
+                <div class="contact-value">Dubai, UAE</div>
+                <div style="margin-top:14px;font-size:0.9rem;color:var(--muted);line-height:1.7">
+                    Available for remote work worldwide<br>and on-site roles in the UAE
                 </div>
             </div>
 
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- ══ PROJECTS ══════════════════════════════════════════ -->
-    <section id="projects">
-        <div class="sec-header reveal">
-            <div class="sec-tag">Featured work</div>
-            <h2 class="sec-title">Projects I've Built</h2>
-        </div>
+</main>
 
-        <div class="project-card reveal">
-            <div class="project-header">
-                <div class="project-title-wrap">
-                    <div class="project-name">CCM Portal</div>
-                    <div class="project-meta">
-                        <span class="badge badge-internal">Internal · Confidential</span>
-                        <span class="badge badge-enterprise">Enterprise System</span>
-                        <span class="badge badge-ai">AI-Powered</span>
-                    </div>
-                </div>
-                <div class="project-company">@ LG Electronics MEA · 2024 — Present</div>
-            </div>
+<footer role="contentinfo" aria-label="Site footer">
+    <span class="footer-grad">Ali Shamia</span> · Full Stack Developer · Dubai, UAE · © 2025
+    <div style="margin-top:10px;font-size:0.75rem;opacity:0.5">
+        <a href="/sitemap.xml" style="color:inherit;text-decoration:none;margin-right:16px">Sitemap</a>
+        <a href="mailto:shamiaali7@gmail.com" style="color:inherit;text-decoration:none">shamiaali7@gmail.com</a>
+    </div>
+</footer>
 
-            <!-- Visual diagram of the platform -->
-            <div
-                style="margin:20px 0 32px;padding:32px;background:#0d1429;border:1px solid var(--border);border-radius:2px">
-                <svg viewBox="0 0 680 200" width="100%" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Central hub -->
-                    <rect x="270" y="70" width="140" height="60" rx="6" fill="rgba(59,130,246,0.1)"
-                        stroke="rgba(59,130,246,0.4)" stroke-width="1" />
-                    <text x="340" y="97" font-family="Bebas Neue,sans-serif" font-size="13" fill="#3B82F6"
-                        text-anchor="middle" letter-spacing="1">CCM Portal</text>
-                    <text x="340" y="114" font-family="JetBrains Mono,monospace" font-size="9" fill="#64748b"
-                        text-anchor="middle">LG Electronics MEA</text>
-                    <!-- Module 1 -->
-                    <rect x="30" y="20" width="130" height="44" rx="4" fill="#111827" stroke="#1e2d45"
-                        stroke-width="1" />
-                    <text x="95" y="39" font-family="Bebas Neue,sans-serif" font-size="11" fill="#94a3b8"
-                        text-anchor="middle" letter-spacing="0.5">Employment</text>
-                    <text x="95" y="55" font-family="JetBrains Mono,monospace" font-size="8" fill="#64748b"
-                        text-anchor="middle">HR & Leave Management</text>
-                    <line x1="160" y1="42" x2="270" y2="85" stroke="#1e2d45" stroke-width="1" stroke-dasharray="4 3" />
-                    <!-- Module 2 AI -->
-                    <rect x="30" y="136" width="130" height="44" rx="4" fill="#111827" stroke="rgba(16,185,129,0.3)"
-                        stroke-width="1" />
-                    <text x="95" y="155" font-family="Bebas Neue,sans-serif" font-size="11" fill="#10b981"
-                        text-anchor="middle" letter-spacing="0.5">Knowledge Base</text>
-                    <text x="95" y="171" font-family="JetBrains Mono,monospace" font-size="8" fill="#10b981"
-                        text-anchor="middle" opacity=".6">✦ AI Semantic Search</text>
-                    <line x1="160" y1="158" x2="270" y2="115" stroke="rgba(16,185,129,0.25)" stroke-width="1"
-                        stroke-dasharray="4 3" />
-                    <!-- Module 3 -->
-                    <rect x="520" y="20" width="130" height="44" rx="4" fill="#111827" stroke="#1e2d45"
-                        stroke-width="1" />
-                    <text x="585" y="39" font-family="Bebas Neue,sans-serif" font-size="11" fill="#94a3b8"
-                        text-anchor="middle" letter-spacing="0.5">QA Evaluation</text>
-                    <text x="585" y="55" font-family="JetBrains Mono,monospace" font-size="8" fill="#64748b"
-                        text-anchor="middle">Scoring & Reporting</text>
-                    <line x1="520" y1="42" x2="410" y2="85" stroke="#1e2d45" stroke-width="1" stroke-dasharray="4 3" />
-                    <!-- Module 4 AI -->
-                    <rect x="520" y="136" width="130" height="44" rx="4" fill="#111827" stroke="rgba(16,185,129,0.3)"
-                        stroke-width="1" />
-                    <text x="585" y="155" font-family="Bebas Neue,sans-serif" font-size="11" fill="#10b981"
-                        text-anchor="middle" letter-spacing="0.5">E-Learning</text>
-                    <text x="585" y="171" font-family="JetBrains Mono,monospace" font-size="8" fill="#10b981"
-                        text-anchor="middle" opacity=".6">✦ AI Course Generation</text>
-                    <line x1="520" y1="158" x2="410" y2="115" stroke="rgba(16,185,129,0.25)" stroke-width="1"
-                        stroke-dasharray="4 3" />
-                </svg>
-            </div>
+<script>
+    /* ── LOADER ── */
+    window.addEventListener('load', () => {
+        setTimeout(() => document.getElementById('loader').classList.add('hidden'), 2500);
+    });
 
-            <p class="project-desc">
-                An all-in-one platform built for LG Electronics MEA that replaces a patchwork of disconnected tools with
-                a single system. Consultant profiles, leave management, a company knowledge base, QA evaluations, and an
-                e-learning platform — all in one place. The Knowledge Base and E-learning modules use AI to make
-                institutional knowledge instantly searchable and to generate training courses automatically.
-            </p>
+    /* ── MOBILE NAV ── */
+    document.getElementById('menuToggle').addEventListener('click', () => {
+        document.getElementById('navLinks').classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(a => {
+        a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+    });
 
-            <div class="modules-grid">
-                <div class="module-card reveal" style="transition-delay:0.05s">
-                    <span class="module-icon">👤</span>
-                    <div class="module-num">01 / 04</div>
-                    <div class="module-title">Workforce Management</div>
-                    <div class="module-desc">Centralised consultant profiles, leave requests, and HR approval workflows.
-                        Real-time visibility across the entire MEA region.</div>
-                </div>
-                <div class="module-card highlight-ai reveal" style="transition-delay:0.15s">
-                    <span class="module-icon">🧠</span>
-                    <div class="module-num">02 / 04</div>
-                    <div class="module-title">Smart Knowledge Base <span style="color:var(--green);font-size:0.85rem">+
-                            AI</span></div>
-                    <div class="module-desc">Ask a question in plain language and get a smart, contextual answer from
-                        the company's internal knowledge — powered by GPT-4.1. Replaced slow keyword search entirely.
-                    </div>
-                </div>
-                <div class="module-card reveal" style="transition-delay:0.25s">
-                    <span class="module-icon">✅</span>
-                    <div class="module-num">03 / 04</div>
-                    <div class="module-title">QA & Performance</div>
-                    <div class="module-desc">Structured quality evaluations with scoring, feedback loops, and reporting.
-                        Gives managers clear data on consultant performance and service quality trends.</div>
-                </div>
-                <div class="module-card highlight-ai reveal" style="transition-delay:0.35s">
-                    <span class="module-icon">🎓</span>
-                    <div class="module-num">04 / 04</div>
-                    <div class="module-title">E-Learning <span style="color:var(--green);font-size:0.85rem">+ AI</span>
-                    </div>
-                    <div class="module-desc">Courses and quizzes generated automatically from existing knowledge content
-                        via OpenAI. Training stays current and scalable — without the manual effort of traditional
-                        course creation.</div>
-                </div>
-            </div>
+    /* ── CURSOR GLOW ── */
+    const glow = document.getElementById('cursorGlow');
+    document.addEventListener('mousemove', e => {
+        glow.style.left = e.clientX + 'px';
+        glow.style.top  = e.clientY + 'px';
+    });
 
-            <div class="project-tech">
-                <div class="project-tech-label">// Tech stack used</div>
-                <span class="skill-tag featured">NestJS</span>
-                <span class="skill-tag featured">Laravel</span>
-                <span class="skill-tag featured">Angular</span>
-                <span class="skill-tag featured">React</span>
-                <span class="skill-tag featured">GPT-4.1</span>
-                <span class="skill-tag featured">OpenAI API</span>
-                <span class="skill-tag">PostgreSQL</span>
-                <span class="skill-tag">Redis</span>
-                <span class="skill-tag">RabbitMQ</span>
-                <span class="skill-tag">RESTful APIs</span>
-                <span class="skill-tag">Semantic Search</span>
-            </div>
-        </div>
-    </section>
+    /* ── SCROLL REVEAL ── */
+    const revealObs = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal, .timeline-item').forEach(el => revealObs.observe(el));
 
-    <!-- ══ EXPERIENCE ════════════════════════════════════════ -->
-    <section id="experience">
-        <div class="sec-header reveal">
-            <div class="sec-tag">Career timeline</div>
-            <h2 class="sec-title">Where I've Worked</h2>
-        </div>
-        <div class="timeline">
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-period">Jun 2024 — Present · Dubai, UAE</div>
-                <div class="timeline-role">Full Stack Web Developer</div>
-                <div class="timeline-company">LG Electronics MEA</div>
-                <ul class="timeline-bullets">
-                    <li>Led development of the CCM Portal — an enterprise platform unifying HR, knowledge management, QA
-                        and e-learning across the MEA region.</li>
-                    <li>Integrated AI-powered semantic search and course generation using GPT-4.1, significantly
-                        reducing manual effort across departments.</li>
-                    <li>Built and maintained APIs connecting multiple internal systems into a single data source for
-                        cleaner reporting.</li>
-                    <li>Optimised front-end performance and enforced secure development practices aligned with
-                        enterprise IT standards.</li>
-                </ul>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-period">Nov 2021 — Jun 2024 · Dubai, UAE</div>
-                <div class="timeline-role">Full Stack Web Developer</div>
-                <div class="timeline-company">MEDCON Conferences &amp; Exhibitions DMCC</div>
-                <ul class="timeline-bullets">
-                    <li>Built and maintained web applications for international medical conferences and exhibitions.
-                    </li>
-                    <li>Integrated payment processing, geolocation, and social media APIs for attendee-facing platforms.
-                    </li>
-                    <li>Led migration of legacy systems to modern frameworks, improving maintainability and load times
-                        significantly.</li>
-                </ul>
-                <div class="timeline-links">
-                    <a href="http://medcon-me.com/" target="_blank" class="tl-link">medcon-me.com ↗</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-period">Mar 2021 — Jan 2022 · Belgium (Remote)</div>
-                <div class="timeline-role">Freelance Web Developer</div>
-                <div class="timeline-company">Startup — Belgium</div>
-                <ul class="timeline-bullets">
-                    <li>Developed front-end and back-end features for a Belgian startup product.</li>
-                    <li>Participated in code reviews and contributed to improving development practices.</li>
-                </ul>
-                <div class="timeline-links">
-                    <a href="https://i-web.be" target="_blank" class="tl-link">i-web.be ↗</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-period">Feb 2017 — Sep 2021 · Syria</div>
-                <div class="timeline-role">Web Developer</div>
-                <div class="timeline-company">Central Bank of Syria</div>
-                <ul class="timeline-bullets">
-                    <li>Built a web application for managing damaged currency exchange — handling sensitive financial
-                        data at national scale.</li>
-                    <li>Developed a banking platform for money exchange and international transfer used by multiple
-                        banks and exchange companies.</li>
-                </ul>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-period">Dec 2019 — Apr 2020 · Netherlands (Remote)</div>
-                <div class="timeline-role">Freelance Web Developer</div>
-                <div class="timeline-company">Client — Netherlands</div>
-                <ul class="timeline-bullets">
-                    <li>Delivered a web solution for a Dutch client with ongoing remote support and consulting.</li>
-                </ul>
-                <div class="timeline-links">
-                    <a href="https://klusfixen.nl/" target="_blank" class="tl-link">klusfixen.nl ↗</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-period">Dec 2018 — Nov 2020 · Dubai, UAE (Part-time)</div>
-                <div class="timeline-role">Web Developer</div>
-                <div class="timeline-company">Taif Al-Emarat Perfumes</div>
-                <ul class="timeline-bullets">
-                    <li>Built a full e-commerce website including product management CMS, customer-facing store, and
-                        RESTful API.</li>
-                </ul>
-                <div class="timeline-links">
-                    <a href="https://taifalemarat.com/" target="_blank" class="tl-link">taifalemarat.com ↗</a>
-                    <a href="https://ramasat.com/" target="_blank" class="tl-link">ramasat.com ↗</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ══ CONTACT ═══════════════════════════════════════════ -->
-    <section id="contact">
-        <div class="contact-wrap">
-            <div class="sec-tag" style="justify-content:center;margin-bottom:20px">Contact</div>
-            <div class="contact-big-text reveal">
-                Let's build<br><span class="grad-text">something great.</span>
-            </div>
-            <p class="contact-sub reveal" style="transition-delay:0.15s">
-                Whether you have a project in mind, a team to grow, or just want to explore what's possible — I'd love
-                to hear from you.
-            </p>
-            <div class="contact-grid reveal" style="transition-delay:0.3s">
-
-                <a href="mailto:shamiaali7@gmail.com" class="contact-card">
-                    <div class="contact-icon">✉️</div>
-                    <div class="contact-method">Email</div>
-                    <div class="contact-value">shamiaali7@gmail.com</div>
-                    <div class="contact-action"
-                        style="background:rgba(59,130,246,0.1);color:var(--blue);margin-top:10px">✉ Send me an email
-                    </div>
-                </a>
-
-                <a href="https://wa.me/971509130747?text=Hi%20Ali%2C%20I%20found%20your%20portfolio%20and%20I%27d%20love%20to%20connect!"
-                    target="_blank" class="contact-card wa-card">
-                    <div class="contact-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="#25D366">
-                            <path
-                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                        </svg>
-                    </div>
-                    <div class="contact-method">WhatsApp</div>
-                    <div class="contact-value">+971 509 130 747</div>
-                    <div class="contact-action">💬 Message me on WhatsApp</div>
-                </a>
-
-                <a href="https://linkedin.com/in/ali-shamia/" target="_blank" class="contact-card li-card">
-                    <div class="contact-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="#0a66c2">
-                            <path
-                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                        </svg>
-                    </div>
-                    <div class="contact-method">LinkedIn</div>
-                    <div class="contact-value">linkedin.com/in/ali-shamia</div>
-                    <div class="contact-action">👥 Connect on LinkedIn</div>
-                </a>
-
-                <div class="contact-card" style="cursor:default">
-                    <div class="contact-icon">📍</div>
-                    <div class="contact-method">Location</div>
-                    <div class="contact-value">Dubai, UAE</div>
-                    <div style="margin-top:14px;font-size:0.9rem;color:var(--muted);line-height:1.7">
-                        Available for remote work worldwide<br>and on-site roles in the UAE
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <span class="footer-grad">Ali Shamia</span> · Full Stack Developer · Dubai, UAE · © 2025
-    </footer>
-
-    <script>
-        /* ── LOADER ── */
-        window.addEventListener('load', () => {
-            setTimeout(() => document.getElementById('loader').classList.add('hidden'), 2500);
+    /* ── SKILL CARDS BOUNCE IN ── */
+    const skillObs = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const el = entry.target;
+                setTimeout(() => el.classList.add('bounce-in'), parseInt(el.dataset.delay) || 0);
+                skillObs.unobserve(el);
+            }
         });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.skill-category').forEach((el, i) => {
+        el.dataset.delay = i * 110;
+        skillObs.observe(el);
+    });
 
-        /* ── MOBILE NAV ── */
-        document.getElementById('menuToggle').addEventListener('click', () => {
-            document.getElementById('navLinks').classList.toggle('open');
+    /* ── NUMBER COUNT UP ── */
+    function animateNum(el, target, suffix = '') {
+        let c = 0, step = target / 48;
+        const t = setInterval(() => {
+            c += step;
+            if (c >= target) { c = target; clearInterval(t); }
+            el.textContent = Math.floor(c) + suffix;
+        }, 34);
+    }
+    setTimeout(() => {
+        document.querySelectorAll('.stat-num[data-target]').forEach(el => {
+            animateNum(el, parseInt(el.dataset.target), el.dataset.suffix || '');
         });
-        document.querySelectorAll('.nav-links a').forEach(a => {
-            a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
-        });
-
-        /* ── CURSOR GLOW ── */
-        const glow = document.getElementById('cursorGlow');
-        document.addEventListener('mousemove', e => {
-            glow.style.left = e.clientX + 'px';
-            glow.style.top = e.clientY + 'px';
-        });
-
-        /* ── SCROLL REVEAL ── */
-        const revealObs = new IntersectionObserver(entries => {
-            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-        }, { threshold: 0.08 });
-        document.querySelectorAll('.reveal, .timeline-item').forEach(el => revealObs.observe(el));
-
-        /* ── SKILL CARDS BOUNCE IN ── */
-        const skillObs = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const el = entry.target;
-                    setTimeout(() => el.classList.add('bounce-in'), parseInt(el.dataset.delay) || 0);
-                    skillObs.unobserve(el);
-                }
-            });
-        }, { threshold: 0.08 });
-        document.querySelectorAll('.skill-category').forEach((el, i) => {
-            el.dataset.delay = i * 110;
-            skillObs.observe(el);
-        });
-
-        /* ── NUMBER COUNT UP ── */
-        function animateNum(el, target, suffix = '') {
-            let c = 0, step = target / 48;
-            const t = setInterval(() => {
-                c += step;
-                if (c >= target) { c = target; clearInterval(t); }
-                el.textContent = Math.floor(c) + suffix;
-            }, 34);
-        }
-        setTimeout(() => {
-            document.querySelectorAll('.stat-num[data-target]').forEach(el => {
-                animateNum(el, parseInt(el.dataset.target), el.dataset.suffix || '');
-            });
-        }, 2700);
-    </script>
+    }, 2700);
+</script>
 </body>
-
 </html>
