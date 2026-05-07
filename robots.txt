@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://alisamishamia.github.io/sitemap.xml
+
+# Block no pages — this is a portfolio, everything should be indexed
+Disallow:
